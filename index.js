@@ -25,7 +25,7 @@ var Debug = false;
  * getDiskInfo
  * @param index
  */
-exports.getDiskInfo = function(index,setDebug) {
+function getDiskInfo(index,setDebug) {
     if(setDebug === true){
         Debug = true;
     }
@@ -151,7 +151,7 @@ exports.getDiskInfo = function(index,setDebug) {
  * Get the disk list
  * @returns {Promise<any>}
  */
-exports.getDiskList = function(setDebug) {
+function getDiskList(setDebug) {
     if(setDebug === true){
         Debug = true;
     }
@@ -555,3 +555,6 @@ function formatSize(num) {
     }
     return res;
 }
+
+exports.getDiskInfo = getDiskInfo;
+exports.getDiskList = getDiskList;
