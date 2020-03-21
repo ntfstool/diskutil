@@ -18,17 +18,14 @@
  * distribution in the file COPYING); if not, write to the service@ntfstool.com
  */
 "use strict"
-// var exec = require('child_process').exec;
-
-
-import {exec} from 'child_process'
+var exec = require('child_process').exec;
 var reMountLock = [];//global lock
 var Debug = false;
 /**
  * getDiskInfo
  * @param index
  */
-export function getDiskInfo(index,setDebug) {
+exports.getDiskInfo = function(index,setDebug) {
     if(setDebug === true){
         Debug = true;
     }
@@ -154,7 +151,7 @@ export function getDiskInfo(index,setDebug) {
  * Get the disk list
  * @returns {Promise<any>}
  */
-export function getDiskList(setDebug) {
+exports.getDiskList = function(setDebug) {
     if(setDebug === true){
         Debug = true;
     }

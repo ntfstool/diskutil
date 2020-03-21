@@ -1,24 +1,51 @@
 {
-  "name": "diskutil",
-  "version": "1.0.0",
+  "_from": "diskutil@latest",
+  "_id": "diskutil@1.0.1",
+  "_inBundle": false,
+  "_integrity": "sha1-ei3G3BRK9pFMmdGvysQXjpq3uXY=",
+  "_location": "/diskutil",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "diskutil@latest",
+    "name": "diskutil",
+    "escapedName": "diskutil",
+    "rawSpec": "latest",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npm.taobao.org/diskutil/download/diskutil-1.0.0.tgz",
+  "_shasum": "7a2dc6dc144af6914c99d1afcac4178e9ab7b976",
+  "_spec": "diskutil@latest",
+  "_where": "/Users/work/Documents/work/node/ntfs项目/ntfstool",
+  "author": {
+    "name": "ntfstool.com"
+  },
+  "bugs": {
+    "url": "https://github.com/ntfstool/diskutil/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
   "description": "diskutil tool for MacOS",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ntfstool/diskutil.git"
-  },
+  "homepage": "https://github.com/ntfstool/diskutil#readme",
   "keywords": [
     "diskutil",
     "macos",
     "disk"
   ],
-  "author": "ntfstool.com",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ntfstool/diskutil/issues"
+  "main": "index.js",
+  "name": "diskutil",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ntfstool/diskutil.git"
   },
-  "homepage": "https://github.com/ntfstool/diskutil#readme"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
 }
