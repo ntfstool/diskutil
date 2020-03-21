@@ -1,6 +1,6 @@
 {
   "_from": "diskutil@latest",
-  "_id": "diskutil@1.0.1",
+  "_id": "diskutil@1.0.2",
   "_inBundle": false,
   "_integrity": "sha1-ei3G3BRK9pFMmdGvysQXjpq3uXY=",
   "_location": "/diskutil",
@@ -47,5 +47,5 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "version": "1.0.1"
+  "version": "1.0.2"
 }
